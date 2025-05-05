@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Graham Balls Delight</title>
+</head>
+<body style="background-color: #fff8f0; font-family: Arial, sans-serif;">
+
+  <!-- Header -->
+  <header style="background-color: #ff6f61; color: white; padding: 20px; text-align: center;">
+    <h1>Graham Balls Delight</h1>
+    <p>Sweet, Creamy, and Full of Love!</p>
+  </header>
+
+  <!-- About Section -->
+  <section style="padding: 20px; background-color: #fff3cd;">
+    <h2>About Our Treats</h2>
+    <p>Our graham balls are handcrafted using premium ingredients and stuffed with exciting flavors like chocolate, strawberry, and marshmallow.</p>
+    <img src="https://via.placeholder.com/600x300?text=Yummy+Graham+Balls" alt="Graham Balls" style="width: 100%; max-width: 600px;">
+  </section>
+
+  <!-- Flavors -->
+  <section style="padding: 20px; background-color: #d4edda;">
+    <h2>Available Flavors</h2>
+    <ul>
+      <li>Classic</li>
+      <li>Chocolate-Filled</li>
+      <li>Strawberry Cream</li>
+      <li>Cookies & Cream</li>
+      <li>Ube Macapuno</li>
+    </ul>
+    <img src="https://via.placeholder.com/600x300?text=Flavor+Variety" alt="Flavors" style="width: 100%; max-width: 600px;">
+  </section>
+
+  <!-- Order Form -->
+  <section style="padding: 20px; background-color: #f8d7da;">
+    <h2>Order Now</h2>
+    <p>Fill out the form below. We’ll email you back with confirmation.</p>
+
+    <form action="https://formspree.io/f/mkgrrgyn" method="POST">
+      <label for="name">Name:</label><br>
+      <input type="text" name="name" id="name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" name="email" id="email" required><br><br>
+
+      <label for="flavor">Flavor:</label><br>
+      <select name="flavor" id="flavor">
+        <option value="Classic">Classic</option>
+        <option value="Chocolate">Chocolate</option>
+        <option value="Strawberry">Strawberry</option>
+        <option value="CookiesCream">Cookies & Cream</option>
+        <option value="Ube">Ube Macapuno</option>
+      </select><br><br>
+
+      <label for="quantity">Quantity (pcs):</label><br>
+      <input type="number" name="quantity" id="quantity" min="1" required><br><br>
+
+      <label for="message">Message (optional):</label><br>
+      <textarea name="message" id="message" rows="4" cols="40"></textarea><br><br>
+
+      <button type="submit" style="background-color: #28a745; color: white; padding: 10px;">Submit Order</button>
+    </form>
+
+    <p><small>Form powered by Formspree</small></p>
+  </section>
+
+  <!-- Footer -->
+  <footer style="background-color: #343a40; color: white; text-align: center; padding: 10px;">
+    <p>&copy; 2025 Graham Balls Delight. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
